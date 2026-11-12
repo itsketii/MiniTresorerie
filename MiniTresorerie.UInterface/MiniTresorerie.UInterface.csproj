@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <RootNamespace>MiniTresorerie.UInterface</RootNamespace>
+    <AssemblyName>MiniTresorerie</AssemblyName>
+    <Product>Mini Trésorerie</Product>
+    <Version>1.0.0</Version>
+    <ApplicationHighDpiMode>SystemAware</ApplicationHighDpiMode>
+    <ForceDesignerDpiUnaware>true</ForceDesignerDpiUnaware>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MiniTresorerie.Models\MiniTresorerie.Models.csproj" />
+    <ProjectReference Include="..\MiniTresorerie.DataAccess\MiniTresorerie.DataAccess.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="connexion.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>
