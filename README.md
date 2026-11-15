@@ -69,3 +69,14 @@ Les mots de passe sont stockés sous la forme `SHA2(sel + mot de passe)` ; le se
 - L'interface utilise uniquement la police **Segoe UI** et des contrôles Windows Forms standards : l'affichage suit la mise à l'échelle de Windows (100 %, 125 %, 150 %…).
 - L'export PDF utilise l'imprimante virtuelle « Microsoft Print to PDF » (incluse dans Windows 10/11).
 - L'export « Excel » produit un CSV (séparateur `;`, UTF-8) qui s'ouvre directement dans Excel.
+
+## Équipe
+
+- Kouadio Ketsia
+- Kodja Esther
+- Essane Jean-Noël
+- Biagou Marc-Aurel
+
+## Licence
+
+Projet pédagogique, tous droits réservés à l'équipe.
